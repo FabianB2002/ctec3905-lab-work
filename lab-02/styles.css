@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 15vw;
+    height: 30vw;
+}
+
+nav a {
+    
+
+    background-color: red;
+    color: chartreuse;
+    margin: auto;
+    padding: 0.25em;
+}
+
+nav a:hover 
+{
+background-color: blueviolet;
+}
+
+header, main 
+{
+    overflow: auto;
+    width: 50vw;
+    box-sizing: border-box;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+}
